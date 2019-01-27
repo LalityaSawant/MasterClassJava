@@ -26,22 +26,22 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Burger deluxBurger = new DeluxBurger("White", "Chicken");		
-		deluxBurger.setAdditionalItem1("tomato");
-		deluxBurger.setAdditionalItem2("cucumber");
-		deluxBurger.setAdditionalItem3("onion");
-		deluxBurger.setAdditionalItem4("lettuce");
+		Burger deluxBurger = new DeluxBurger("White", "PORK");		
+		//deluxBurger.setAdditionalItem1("tomato");
+		//deluxBurger.setAdditionalItem2("cucumber");
+		//deluxBurger.setAdditionalItem3("onion");
+		//deluxBurger.setAdditionalItem4("lettuce");
 		deluxBurger.getBurgerTotalPrice();
 		
 		System.out.println();
 		
-		Burger healthyBurger = new HealthyBurger("Chiken");
+		Burger healthyBurger = new HealthyBurger("Chicken");
 		healthyBurger.setAdditionalItem1("tomato");
 		healthyBurger.setAdditionalItem2("cucumber");
 		healthyBurger.setAdditionalItem3("lettuce");
 		healthyBurger.setAdditionalItem4("onion");
 		healthyBurger.setAdditionalItem5("zukini");
-		healthyBurger.setAdditionalItem6("cheese");
+		healthyBurger.setAdditionalItem6("chese");
 		healthyBurger.getBurgerTotalPrice();
 	}
 }

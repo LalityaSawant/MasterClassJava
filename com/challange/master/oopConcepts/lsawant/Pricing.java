@@ -28,7 +28,7 @@ public class Pricing {
 		case "bellpepper":
 			this.price = 1;
 			break;
-		case "chesee":
+		case "cheese":
 			this.price = 1;
 			break;
 		case "chicken":
@@ -47,7 +47,8 @@ public class Pricing {
 			this.price = 5;
 			break;
 		default:
-			this.price = 0;			
+			this.price = 0;		
+			System.out.println(name.toUpperCase() + " NOT AVAILABLE!");
 			break;
 		}
 		if(!getName().equals("unknown")) {
